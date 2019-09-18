@@ -6,7 +6,7 @@ class DeleteLinkedListNode
         Node root = new Node(10);
         root.next = new Node(20);
         root.next.next = new Node(30);
-        root.next.next.next = new Node(40);
+          root.next.next.next = new Node(40);
         root.next.next.next.next = new Node(50);
 
         DeleteLinkedListNode linkedListNode = new DeleteLinkedListNode();
